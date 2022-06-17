@@ -11,7 +11,8 @@ body {
   font-size: 2em;
   font-family: 'Aclonica', sans-serif;
   color: #FCF7FF;
-  text-shadow: -3px 5px 1px rgba(52, 44, 50, 0.95);
+  text-shadow: -3px 5px 1px #342C32;
+  box-shadow: 0px 3px 1px #342C32;
 }
 
 .button {
@@ -24,13 +25,13 @@ body {
   font-size: 20px;
   border: none;
   outline: none;
-  text-shadow: 0px 3px 1px rgba(52, 44, 50, 0.95);
+  text-shadow: 0px 3px 1px #342C32;
   transition: 0.5s;
-  box-shadow: 0px 5px 0px rgba(52, 44, 50, 0.95);
+  box-shadow: 0px 5px 0px #342C32
 }
 
 .button:hover {
-  background-color:rgba(52, 44, 50, 0.95)
+  background-color:#342C32;
 }
 
 .retreat-button {
@@ -40,4 +41,61 @@ body {
 .nav-bar-contents {
   display: flex;
   justify-content: space-between;
+}
+
+.image {
+  width: 300px;
+  height: auto;
+  background-color: #655560;
+}
+
+.card {
+  padding: 50px;
+}
+
+.card-body {
+  padding: 15px;
+  text-align: center;
+  font-family: 'Aclonica', sans-serif;
+  color: #FCF7FF;
+  background-color: #655560;
+  text-shadow: 0px 3px 1px #342C32;
+  word-wrap: break-word;
+  border-radius: 0px 0px 9px 9px;
+  box-shadow: 0px 5px 0px #342C32;
+}
+
+.card-title {
+  font-size: 30px;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+ul {
+  margin: 0 auto;
+  text-align: center;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.creature-page-head {
+  text-align: center;
+  font-family: 'Aclonica', sans-serif;
+  color: #342C32;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.creature-page-header {
+  font-size: 40px;
+}
+
+.creature-page-text {
+  font-size: 25px
 }
