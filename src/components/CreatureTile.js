@@ -1,10 +1,4 @@
 import { Card, CardGroup } from "react-bootstrap";
-import oddstare from "../creatureImages/outdoorCreatures/oddstare.jpg";
-import oddtrees from "../creatureImages/outdoorCreatures/oddtrees.jpg";
-import snowfriends from "../creatureImages/outdoorCreatures/snowfriends.jpg";
-import snowfriendsreturned from "../creatureImages/outdoorCreatures/snowfriendsreturned.jpg";
-import mushrooms from "../creatureImages/outdoorCreatures/mushrooms.jpg";
-import candyexchange from "../creatureImages/outdoorCreatures/candyexchange.jpg";
 
 const CreatureTile = (props) => {
   return (
