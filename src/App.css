@@ -84,7 +84,7 @@ li {
   vertical-align: top;
 }
 
-.creature-page-head {
+.page-head {
   text-align: center;
   font-family: 'Aclonica', sans-serif;
   color: #342C32;
@@ -92,10 +92,10 @@ li {
   font-weight: bold;
 }
 
-.creature-page-header {
+.page-header {
   font-size: 40px;
 }
 
-.creature-page-text {
+.page-text {
   font-size: 25px
 }
